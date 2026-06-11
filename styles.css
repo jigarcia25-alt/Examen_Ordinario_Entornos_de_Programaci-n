@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Menú */
+.menu {
+    width: 80%;
+    margin: 50px auto 30px auto;
+}
+
+.menu a {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #2ea7ff;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+/* Contenedor del formulario */
+.contenedor {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    background: linear-gradient(to right,
+            #1ec9ff,
+            #7cecff);
+    border: 10px solid #0066cc;
+    border-radius: 35px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #003366;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+}
+
+button {
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+}
